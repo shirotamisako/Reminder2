@@ -60,6 +60,8 @@ class DatesettingViewController: UIViewController {
         var twitterVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
         twitterVC.setInitialText(remindText+"を"+dateText+"までにやる！！")
         presentViewController(twitterVC,animated: true, completion: nil)
+        var appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate!
+        appDelegate.remindText = remindText
     }
     
     

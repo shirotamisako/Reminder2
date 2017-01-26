@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dUG-VU-EZM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="DIu-iH-hkC">
             <objects>
-                <viewController id="dUG-VU-EZM" customClass="ViewController" customModule="reminder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dUG-VU-EZM" customClass="ViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1TH-x3-ElS"/>
                         <viewControllerLayoutGuide type="bottom" id="Dn4-dB-KQ3"/>
@@ -55,7 +55,7 @@
         <!--Datesetting View Controller-->
         <scene sceneID="Q3H-xq-lXV">
             <objects>
-                <viewController id="Nuo-IZ-6CK" customClass="DatesettingViewController" customModule="reminder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Nuo-IZ-6CK" customClass="DatesettingViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QOU-I9-4My"/>
                         <viewControllerLayoutGuide type="bottom" id="8eC-vx-fns"/>
@@ -105,7 +105,7 @@
         <!--Createremind View Controller-->
         <scene sceneID="Qrf-Fz-gsT">
             <objects>
-                <viewController id="WnT-up-Q2o" customClass="CreateremindViewController" customModule="reminder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WnT-up-Q2o" customClass="CreateremindViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bDu-T9-ehW"/>
                         <viewControllerLayoutGuide type="bottom" id="PmS-1S-XkW"/>
@@ -147,7 +147,7 @@
         <!--List View Controller-->
         <scene sceneID="Or9-y7-zxJ">
             <objects>
-                <viewController id="NFA-6e-W82" customClass="ListViewController" customModule="reminder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NFA-6e-W82" customClass="ListViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kW1-Ub-raj"/>
                         <viewControllerLayoutGuide type="bottom" id="clp-Y2-8R0"/>
