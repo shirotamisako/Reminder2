@@ -14,6 +14,9 @@
 		F9C15E181E3A058C0050DCBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C15E161E3A058C0050DCBA /* LaunchScreen.storyboard */; };
 		F9C15E231E3A058C0050DCBA /* Reminder2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E221E3A058C0050DCBA /* Reminder2Tests.swift */; };
 		F9C15E2E1E3A058C0050DCBA /* Reminder2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E2D1E3A058C0050DCBA /* Reminder2UITests.swift */; };
+		F9C15E3C1E3A065C0050DCBA /* CreatereminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E3B1E3A065C0050DCBA /* CreatereminderViewController.swift */; };
+		F9C15E3E1E3A06830050DCBA /* DetesettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E3D1E3A06830050DCBA /* DetesettingViewController.swift */; };
+		F9C15E401E3A06AD0050DCBA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E3F1E3A06AD0050DCBA /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F9C15E291E3A058C0050DCBA /* Reminder2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reminder2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C15E2D1E3A058C0050DCBA /* Reminder2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder2UITests.swift; sourceTree = "<group>"; };
 		F9C15E2F1E3A058C0050DCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C15E3B1E3A065C0050DCBA /* CreatereminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatereminderViewController.swift; sourceTree = "<group>"; };
+		F9C15E3D1E3A06830050DCBA /* DetesettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetesettingViewController.swift; sourceTree = "<group>"; };
+		F9C15E3F1E3A06AD0050DCBA /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				F9C15E141E3A058C0050DCBA /* Assets.xcassets */,
 				F9C15E161E3A058C0050DCBA /* LaunchScreen.storyboard */,
 				F9C15E191E3A058C0050DCBA /* Info.plist */,
+				F9C15E3B1E3A065C0050DCBA /* CreatereminderViewController.swift */,
+				F9C15E3D1E3A06830050DCBA /* DetesettingViewController.swift */,
+				F9C15E3F1E3A06AD0050DCBA /* ListViewController.swift */,
 			);
 			path = Reminder2;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C15E101E3A058C0050DCBA /* ViewController.swift in Sources */,
+				F9C15E3E1E3A06830050DCBA /* DetesettingViewController.swift in Sources */,
 				F9C15E0E1E3A058C0050DCBA /* AppDelegate.swift in Sources */,
+				F9C15E401E3A06AD0050DCBA /* ListViewController.swift in Sources */,
+				F9C15E3C1E3A065C0050DCBA /* CreatereminderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
