@@ -81,7 +81,7 @@
                                     <action selector="twitterBtn:" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="bNz-kR-eay"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="30" translatesAutoresizingMaskIntoConstraints="NO" id="vc1-S1-mgj">
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="vc1-S1-mgj">
                                 <rect key="frame" x="0.0" y="211" width="375" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="500470449.19192398">
                                     <!--2016-11-10 11:34:09 +0000-->
