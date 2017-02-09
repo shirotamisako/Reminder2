@@ -415,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Reminder2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -426,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Reminder2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -494,6 +496,7 @@
 				F9C15E341E3A058C0050DCBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9C15E351E3A058C0050DCBA /* Build configuration list for PBXNativeTarget "Reminder2Tests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +505,7 @@
 				F9C15E371E3A058C0050DCBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9C15E381E3A058C0050DCBA /* Build configuration list for PBXNativeTarget "Reminder2UITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +514,7 @@
 				F9C15E3A1E3A058C0050DCBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

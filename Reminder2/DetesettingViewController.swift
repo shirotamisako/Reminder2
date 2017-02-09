@@ -32,30 +32,6 @@ class DatesettingViewController: UIViewController {
         
         print(datePicker.date)
         
-        //ローカル通知
-        let notification = UILocalNotification()
-        //ロック中にスライドで〜〜のところの文字
-        notification.alertAction = "アプリを開く"
-        print(remindText)
-        //通知の本文
-        notification.alertBody = remindText+""
-        //通知される時間（とりあえず10秒後に設定）
-        //notification.fireDate = NSDate(timeIntervalSinceNow:10)
-        notification.fireDate = datePicker.date
-        //通知音
-        notification.soundName = UILocalNotificationDefaultSoundName
-        //アインコンバッジの数字
-        notification.applicationIconBadgeNumber = 1
-        //通知を識別するID
-        notification.userInfo = ["notifyID":"gohan"]
-        //通知をスケジューリング
-        UIApplication.sharedApplication().scheduleLocalNotification(notification)
-        
-        var twitterVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-        twitterVC.setInitialText(remindText+"を"+dateText+"までにやる！！")
-        presentViewController(twitterVC,animated: true, completion: nil)
-        var appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate!
-        appDelegate.remindText = remindText
         
     }
     
@@ -85,10 +61,38 @@ class DatesettingViewController: UIViewController {
         var twitterVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
         twitterVC.setInitialText(remindText+"を"+dateText+"までにやる！！")
         presentViewController(twitterVC,animated: true, completion: nil)
-        var appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate!
-        appDelegate.remindText = remindText
+                setNotification()
+
     }
     
+    @IBAction func save(){
+        setNotification()
+    }
+    
+    func setNotification(){
+        //ローカル通知
+        let notification = UILocalNotification()
+        //ロック中にスライドで〜〜のところの文字
+        notification.alertAction = "アプリを開く"
+        print(remindText)
+        //通知の本文
+        notification.alertBody = remindText+""
+        //通知される時間（とりあえず10秒後に設定）
+        //notification.fireDate = NSDate(timeIntervalSinceNow:10)
+        notification.fireDate = datePicker.date
+        //通知音
+        notification.soundName = UILocalNotificationDefaultSoundName
+        //アインコンバッジの数字
+        notification.applicationIconBadgeNumber = 1
+        //通知を識別するID
+        notification.userInfo = ["notifyID":"gohan"]
+        //通知をスケジューリング
+        UIApplication.sharedApplication().scheduleLocalNotification(notification)
+        
+        var appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate!
+        appDelegate.remindText = remindText
+
+    }
     
     /*
      // MARK: - Navigation
