@@ -14,6 +14,7 @@ class DatesettingViewController: UIViewController {
     
     var remindText: String = ""
     var dateText: String = ""
+    var  remindArray: [[String:String]] = []
     
     
     @IBOutlet var datePicker: UIDatePicker!
@@ -31,6 +32,8 @@ class DatesettingViewController: UIViewController {
         
         
         print(datePicker.date)
+        
+        
         
         
     }
@@ -67,6 +70,10 @@ class DatesettingViewController: UIViewController {
     
     @IBAction func save(){
         setNotification()
+        let remindDictionary = ["Date": dateText,"tweet":remindText]
+        //remindArrayにremindDictionaryを追加
+        remindArray.append(remindDictionary)
+        
     }
     
     func setNotification(){

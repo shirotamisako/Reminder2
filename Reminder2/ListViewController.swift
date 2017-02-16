@@ -8,6 +8,8 @@
 
 import UIKit
 
+ var remindText: String = ""
+
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var table: UITableView!
