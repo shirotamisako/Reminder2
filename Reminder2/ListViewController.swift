@@ -17,16 +17,21 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     //題名？を入れるための配列
     var riminderNameArray = [String]()
     
+    var  remindArray: [[String:String]] = []
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("misako") as? [[String:String]] ?? []
+
         
         //テーブルビューのデータベースメソッドはViewControllerクラスに書くよ、トイう設定
         table.dataSource = self
         //テーブルビューのデリケートメソッドはViewControllerクラスに書くよという設定
         table.delegate = self
         
-        //riminderNameArrayに題名を入れていく
-        riminderNameArray = ["う","え","おおおお"]
+       
         
         // Do any additional setup after loading the view.
     }
@@ -39,7 +44,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     //セルの数を設定する
     func tableView(tableView: UITableView,numberOfRowsInSection section: Int) -> Int {
         //セルの数をriminderNameArrayの要素の数にする
-        return riminderNameArray.count
+        return remindArray.count
     }
     
     //IDつきのセルを取得してセル付属のtextLabelに「テスト」と表示させてみる
@@ -47,15 +52,14 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell")
         
         //セルにriminderNameArrayの題名を表示する
-        cell?.textLabel?.text = riminderNameArray[indexPath.row]
-        cell?.textLabel?.text = "テスト"
+        cell?.textLabel?.text = remindArray[indexPath.row]["tweet"]
         
         return cell!
     }
     
     //cellが押されたときの呼ばれるメソッド
     func tableView(tableView: UITableView,didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        NSLog("%@が選ばれました",riminderNameArray[indexPath.row])
+        NSLog("%@が選ばれました",remindArray[indexPath.row])
     }
     
     /*
