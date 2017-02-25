@@ -35,6 +35,11 @@ class CreateremindViewController: UIViewController {
         //}
     }
     
+    @IBAction func back() {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     
     
     /*
