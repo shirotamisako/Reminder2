@@ -20,6 +20,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var  remindArray: [[String:String]] = []
 
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,10 +35,23 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
        
         
         // Do any additional setup after loading the view.
+       
+       
+   
+        super.viewDidLoad()
+        
+        // 右側に編集ボタン追加
+        self.navigationItem.rightBarButtonItem = editButtonItem()
+        
+        // ボタンの色を変更
+        self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
+            
+        
     }
     
+
     
-    @IBAction func back() {
+       @IBAction func back() {
         dismissViewControllerAnimated(true, completion: nil)
         }
     
@@ -47,6 +61,20 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func tableView(tableView: UITableView,canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool
+    {
+        return true
+    }
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.Delete {
+            arr.removeObjectAtIndex(indexPath.row)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+        }
+    }
+    
+
     //セルの数を設定する
     func tableView(tableView: UITableView,numberOfRowsInSection section: Int) -> Int {
         //セルの数をriminderNameArrayの要素の数にする
