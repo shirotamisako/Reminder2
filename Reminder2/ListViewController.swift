@@ -9,7 +9,7 @@
 import UIKit
 
  var remindText: String = ""
-
+//var deleteindex: NSIndexPath = remindArray[indexPath.row]
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var table: UITableView!
@@ -44,7 +44,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.navigationItem.rightBarButtonItem = editButtonItem()
         
         // ボタンの色を変更
-        self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
+       // self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
             
         
     }
@@ -69,7 +69,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == UITableViewCellEditingStyle.Delete {
-            arr.removeObjectAtIndex(indexPath.row)
+            remindArray.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
         }
     }
