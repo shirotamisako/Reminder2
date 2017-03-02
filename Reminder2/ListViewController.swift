@@ -44,7 +44,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.navigationItem.rightBarButtonItem = editButtonItem()
         
         // ボタンの色を変更
-       // self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
+        // self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
             
         
     }
@@ -73,6 +73,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
         }
     }
+   
     
 
     //セルの数を設定する

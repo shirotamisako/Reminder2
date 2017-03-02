@@ -62,9 +62,22 @@ class DatesettingViewController: UIViewController {
     
     @IBAction func twitterBtn(sender: AnyObject) {
         var twitterVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-        twitterVC.setInitialText(remindText+"を"+dateText+"までにやる！！")
+        twitterVC.setInitialText(remindText+"を"+dateText)
         presentViewController(twitterVC,animated: true, completion: nil)
                 setNotification()
+        
+        
+        let alertController = UIAlertController(title: "", message: "ツイートが完了しました！", preferredStyle: .Alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: {
+            (action:UIAlertAction!) -> Void in
+            
+            //画面遷移
+            self.performSegueWithIdentifier("goHome", sender: nil)
+        })
+        alertController.addAction(defaultAction)
+        presentViewController(alertController, animated: true, completion: nil)
+
 
     }
     
@@ -76,7 +89,21 @@ class DatesettingViewController: UIViewController {
         NSUserDefaults.standardUserDefaults().setObject(remindArray, forKey: "misako")
         
         
-    }
+        let alertController = UIAlertController(title: "", message: "保存しました", preferredStyle: .Alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        alertController.addAction(defaultAction)
+        presentViewController(alertController, animated: true, completion: nil)
+
+            }
+   
+    
+    
+    
+    
+    
+
+
     
     func setNotification(){
         //ローカル通知
@@ -102,6 +129,8 @@ class DatesettingViewController: UIViewController {
         appDelegate.remindText = remindText
 
     }
+    
+    
     
     /*
      // MARK: - Navigation
