@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="dUG-VU-EZM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="o1Q-dl-5Gq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,172 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="B9c-yp-W88">
-            <objects>
-                <navigationController id="9DT-sh-LSH" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GFm-wU-Qck">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cgO-I2-41g" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-243" y="314"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="DIu-iH-hkC">
-            <objects>
-                <viewController id="dUG-VU-EZM" customClass="ViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1TH-x3-ElS"/>
-                        <viewControllerLayoutGuide type="bottom" id="Dn4-dB-KQ3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zh4-ix-fns">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fni-y3-duN">
-                                <rect key="frame" x="37" y="170" width="300" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="リマインドする">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="WnT-up-Q2o" kind="show" id="J2U-dx-Xex">
-                                        <nil key="action"/>
-                                    </segue>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjK-rC-W9l">
-                                <rect key="frame" x="77" y="470" width="221" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="現在のリマインド">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NFA-6e-W82" kind="show" id="BXf-8x-XAi">
-                                        <nil key="action"/>
-                                    </segue>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dbf-CX-bk5" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="244.5" y="313.5"/>
-        </scene>
-        <!--Datesetting View Controller-->
-        <scene sceneID="Q3H-xq-lXV">
-            <objects>
-                <viewController id="Nuo-IZ-6CK" customClass="DatesettingViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QOU-I9-4My"/>
-                        <viewControllerLayoutGuide type="bottom" id="8eC-vx-fns"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ECP-dX-Fd2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLw-3V-OR1">
-                                <rect key="frame" x="43" y="515" width="120" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="保存のみ">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="save" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="Jv4-p9-HZF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KI5-j2-nCA">
-                                <rect key="frame" x="215" y="515" width="120" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ツイートする">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="twitterBtn:" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="bNz-kR-eay"/>
-                                </connections>
-                            </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="vc1-S1-mgj">
-                                <rect key="frame" x="0.0" y="211" width="375" height="216"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <date key="date" timeIntervalSinceReferenceDate="500470449.19192398">
-                                    <!--2016-11-10 11:34:09 +0000-->
-                                </date>
-                                <connections>
-                                    <action selector="go:" destination="Nuo-IZ-6CK" eventType="valueChanged" id="275-fp-3Pg"/>
-                                </connections>
-                            </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60x-pk-hHL">
-                                <rect key="frame" x="127" y="601" width="120" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ホームに戻る">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="twitterBtn:" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="EkR-xV-w1J"/>
-                                    <segue destination="dUG-VU-EZM" kind="modal" id="RDv-R1-MWc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45a-45-HqM">
-                                <rect key="frame" x="43" y="514" width="120" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="保存のみ">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="save" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="bzx-Uj-ccV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVH-Cq-KMH">
-                                <rect key="frame" x="43" y="515" width="120" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="保存のみ">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="save" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="gyU-2y-fi5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKT-b4-OdF">
-                                <rect key="frame" x="43" y="513" width="120" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="保存のみ">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="save" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="eZ1-9C-BSP"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <connections>
-                        <outlet property="datePicker" destination="vc1-S1-mgj" id="LwS-qQ-JTG"/>
-                        <segue destination="dUG-VU-EZM" kind="modal" identifier="goHome" id="7Dk-pC-RUp"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tsa-RK-E4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1135.5" y="313.5"/>
-        </scene>
-        <!--Createremind View Controller-->
+        <!--Item-->
         <scene sceneID="Qrf-Fz-gsT">
             <objects>
-                <viewController id="WnT-up-Q2o" customClass="CreateremindViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WnT-up-Q2o" customClass="CreateRemindViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bDu-T9-ehW"/>
                         <viewControllerLayoutGuide type="bottom" id="PmS-1S-XkW"/>
@@ -183,95 +21,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDP-4b-Tbv">
-                                <rect key="frame" x="68" y="383" width="239" height="59"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKT-b4-OdF">
+                                <rect key="frame" x="127" y="540" width="120" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="日時設定へ">
+                                <state key="normal" title="保存のみ">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Nuo-IZ-6CK" kind="show" identifier="toDatesetting" id="bIZ-EX-FSm">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <action selector="save" destination="WnT-up-Q2o" eventType="touchUpInside" id="rmz-MB-CjR"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="vc1-S1-mgj">
+                                <rect key="frame" x="0.0" y="316" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="500470449.19192398">
+                                    <!--2016-11-10 11:34:09 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="go:" destination="WnT-up-Q2o" eventType="valueChanged" id="dzI-Pg-z8i"/>
+                                </connections>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fU-yK-KsQ">
+                                <rect key="frame" x="293" y="548" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="twitter"/>
+                                <connections>
+                                    <action selector="twittergo:" destination="WnT-up-Q2o" eventType="touchUpInside" id="qKx-Jf-Ta0"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NsX-Wz-UOR">
-                                <rect key="frame" x="6" y="116" width="362" height="249"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.64707317870000003" blue="0.99962298120000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jef-zz-sFU">
-                                <rect key="frame" x="16" y="28" width="120" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.23877992610000001" blue="0.45685638039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ホームに戻る">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="back" destination="WnT-up-Q2o" eventType="touchUpInside" id="09H-F5-zBC"/>
-                                    <action selector="twitterBtn:" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="Ecw-71-nV9"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="4nd-nv-dbK"/>
                     <connections>
+                        <outlet property="datePicker" destination="vc1-S1-mgj" id="xSk-Zg-p9d"/>
                         <outlet property="remindTextView" destination="NsX-Wz-UOR" id="wC3-rg-IGW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ly7-RX-4o6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684.5" y="313.5"/>
+            <point key="canvasLocation" x="1489.5" y="342.5"/>
         </scene>
-        <!--Root View Controller-->
-        <scene sceneID="ywc-a2-gyq">
-            <objects>
-                <tableViewController id="CJ7-2U-gc4" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="a6d-X9-pFd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="keS-UF-yGc">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="keS-UF-yGc" id="MRR-ZA-xUl">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="CJ7-2U-gc4" id="bdu-2b-d8T"/>
-                            <outlet property="delegate" destination="CJ7-2U-gc4" id="f8R-yV-7VK"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="4Vc-AE-OQj"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PJ1-UH-Hcn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-173" y="1213"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="58E-Lc-EqX">
-            <objects>
-                <navigationController id="aB6-0x-cBz" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wit-Pg-Mxj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="CJ7-2U-gc4" kind="relationship" relationship="rootViewController" id="sOb-Lv-fmI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FJa-sw-Bdo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="232" y="1213"/>
-        </scene>
-        <!--List View Controller-->
+        <!--Item-->
         <scene sceneID="Or9-y7-zxJ">
             <objects>
                 <viewController id="NFA-6e-W82" customClass="ListViewController" customModule="Reminder2" customModuleProvider="target" sceneMemberID="viewController">
@@ -310,19 +110,37 @@
                                 </state>
                                 <connections>
                                     <action selector="back" destination="NFA-6e-W82" eventType="touchUpInside" id="hID-yr-Eys"/>
-                                    <action selector="twitterBtn:" destination="Nuo-IZ-6CK" eventType="touchUpInside" id="lB1-bB-PpO"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="XNM-Gu-pjK"/>
                     <connections>
                         <outlet property="table" destination="wGV-qL-5ww" id="rFb-fP-L9y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Slg-Ay-RTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="1213"/>
+            <point key="canvasLocation" x="1307" y="1239"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="K62-ID-Bqt">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="o1Q-dl-5Gq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="vwY-P6-SNV">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WnT-up-Q2o" kind="relationship" relationship="viewControllers" id="9uU-u9-MMw"/>
+                        <segue destination="NFA-6e-W82" kind="relationship" relationship="viewControllers" id="2Dz-9Y-5Hg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AAQ-43-KVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="818" y="343"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -330,7 +148,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="7Dk-pC-RUp"/>
-    </inferredMetricsTieBreakers>
 </document>
