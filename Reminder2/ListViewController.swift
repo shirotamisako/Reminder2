@@ -20,11 +20,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var  remindArray: [[String:String]] = []
 
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("misako") as? [[String:String]] ?? []
+        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("remindarray") as? [[String:String]] ?? []
 
         
         //テーブルビューのデータベースメソッドはViewControllerクラスに書くよ、トイう設定
@@ -67,10 +66,18 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return true
     }
     
+    let ud = NSUserDefaults.standardUserDefaults()
+    
+    
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == UITableViewCellEditingStyle.Delete {
             remindArray.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+            
+            
+            ud.setObject(remindArray, forKey: "remindarray")
+            ud.synchronize()
+
         }
     }
    

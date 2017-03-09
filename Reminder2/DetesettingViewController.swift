@@ -43,7 +43,7 @@ class DatesettingViewController: UIViewController {
         datePicker.date = now
         
         // Do any additional setup after loading the view.
-        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("misako") as? [[String:String]] ?? []
+        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("remindarray") as? [[String:String]] ?? []
         
         let dateFormatter = NSDateFormatter()
         dateFormatter.locale = NSLocale(localeIdentifier: "ja_JP") // ロケールの設定
@@ -86,7 +86,7 @@ class DatesettingViewController: UIViewController {
         let remindDictionary = ["Date": dateText,"tweet":remindText]
         //remindArrayにremindDictionaryを追加
         remindArray.append(remindDictionary)
-        NSUserDefaults.standardUserDefaults().setObject(remindArray, forKey: "misako")
+        NSUserDefaults.standardUserDefaults().setObject(remindArray, forKey: "remindarray")
         
         
         let alertController = UIAlertController(title: "", message: "保存しました", preferredStyle: .Alert)
