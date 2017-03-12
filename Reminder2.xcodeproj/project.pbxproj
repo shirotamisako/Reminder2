@@ -16,6 +16,36 @@
 		F9C15E2E1E3A058C0050DCBA /* Reminder2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E2D1E3A058C0050DCBA /* Reminder2UITests.swift */; };
 		F9C15E3C1E3A065C0050DCBA /* CreateReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E3B1E3A065C0050DCBA /* CreateReminderViewController.swift */; };
 		F9C15E401E3A06AD0050DCBA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C15E3F1E3A06AD0050DCBA /* ListViewController.swift */; };
+		F9FE8E7F1E753B5B00F5A617 /* リマインダー背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E7E1E753B5B00F5A617 /* リマインダー背景.jpg */; };
+		F9FE8E811E753E5000F5A617 /* Twitter_Logo_White_On_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E801E753E5000F5A617 /* Twitter_Logo_White_On_Blue.png */; };
+		F9FE8E881E75408500F5A617 /* twitter_off.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E861E75408500F5A617 /* twitter_off.png */; };
+		F9FE8E891E75408500F5A617 /* twitter_on.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E871E75408500F5A617 /* twitter_on.png */; };
+		F9FE8E911E75571400F5A617 /* pencil-icon!.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E8F1E75571400F5A617 /* pencil-icon!.png */; };
+		F9FE8E931E75583100F5A617 /* list-icon!.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E921E75583100F5A617 /* list-icon!.png */; };
+		F9FE8E951E755E2700F5A617 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E941E755E2700F5A617 /* icon.png */; };
+		F9FE8EAE1E75636700F5A617 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E971E75636700F5A617 /* Contents.json */; };
+		F9FE8EAF1E75636700F5A617 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E981E75636700F5A617 /* Icon-App-20x20@1x.png */; };
+		F9FE8EB01E75636700F5A617 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E991E75636700F5A617 /* Icon-App-20x20@2x.png */; };
+		F9FE8EB11E75636700F5A617 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E9A1E75636700F5A617 /* Icon-App-20x20@3x.png */; };
+		F9FE8EB21E75636700F5A617 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E9B1E75636700F5A617 /* Icon-App-29x29@1x.png */; };
+		F9FE8EB31E75636700F5A617 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E9C1E75636700F5A617 /* Icon-App-29x29@2x.png */; };
+		F9FE8EB41E75636700F5A617 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E9D1E75636700F5A617 /* Icon-App-29x29@3x.png */; };
+		F9FE8EB51E75636700F5A617 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E9E1E75636700F5A617 /* Icon-App-40x40@1x.png */; };
+		F9FE8EB61E75636700F5A617 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8E9F1E75636700F5A617 /* Icon-App-40x40@2x.png */; };
+		F9FE8EB71E75636700F5A617 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA01E75636700F5A617 /* Icon-App-40x40@3x.png */; };
+		F9FE8EB81E75636700F5A617 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA11E75636700F5A617 /* Icon-App-57x57@1x.png */; };
+		F9FE8EB91E75636700F5A617 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA21E75636700F5A617 /* Icon-App-57x57@2x.png */; };
+		F9FE8EBA1E75636700F5A617 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA31E75636700F5A617 /* Icon-App-60x60@1x.png */; };
+		F9FE8EBB1E75636700F5A617 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA41E75636700F5A617 /* Icon-App-60x60@2x.png */; };
+		F9FE8EBC1E75636700F5A617 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA51E75636700F5A617 /* Icon-App-60x60@3x.png */; };
+		F9FE8EBD1E75636700F5A617 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA61E75636700F5A617 /* Icon-App-72x72@1x.png */; };
+		F9FE8EBE1E75636700F5A617 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA71E75636700F5A617 /* Icon-App-72x72@2x.png */; };
+		F9FE8EBF1E75636700F5A617 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA81E75636700F5A617 /* Icon-App-76x76@1x.png */; };
+		F9FE8EC01E75636700F5A617 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EA91E75636700F5A617 /* Icon-App-76x76@2x.png */; };
+		F9FE8EC11E75636700F5A617 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EAA1E75636700F5A617 /* Icon-App-76x76@3x.png */; };
+		F9FE8EC21E75636700F5A617 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EAB1E75636700F5A617 /* Icon-App-83.5x83.5@2x.png */; };
+		F9FE8EC31E75636700F5A617 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EAC1E75636700F5A617 /* Icon-Small-50x50@1x.png */; };
+		F9FE8EC41E75636700F5A617 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE8EAD1E75636700F5A617 /* Icon-Small-50x50@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +81,36 @@
 		F9C15E2F1E3A058C0050DCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9C15E3B1E3A065C0050DCBA /* CreateReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateReminderViewController.swift; sourceTree = "<group>"; };
 		F9C15E3F1E3A06AD0050DCBA /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F9FE8E7E1E753B5B00F5A617 /* リマインダー背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "リマインダー背景.jpg"; sourceTree = "<group>"; };
+		F9FE8E801E753E5000F5A617 /* Twitter_Logo_White_On_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_Logo_White_On_Blue.png; sourceTree = "<group>"; };
+		F9FE8E861E75408500F5A617 /* twitter_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_off.png; sourceTree = "<group>"; };
+		F9FE8E871E75408500F5A617 /* twitter_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_on.png; sourceTree = "<group>"; };
+		F9FE8E8F1E75571400F5A617 /* pencil-icon!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil-icon!.png"; sourceTree = "<group>"; };
+		F9FE8E921E75583100F5A617 /* list-icon!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-icon!.png"; sourceTree = "<group>"; };
+		F9FE8E941E755E2700F5A617 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F9FE8E971E75636700F5A617 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		F9FE8E981E75636700F5A617 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		F9FE8E991E75636700F5A617 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		F9FE8E9A1E75636700F5A617 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		F9FE8E9B1E75636700F5A617 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		F9FE8E9C1E75636700F5A617 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		F9FE8E9D1E75636700F5A617 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		F9FE8E9E1E75636700F5A617 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		F9FE8E9F1E75636700F5A617 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		F9FE8EA01E75636700F5A617 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		F9FE8EA11E75636700F5A617 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		F9FE8EA21E75636700F5A617 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		F9FE8EA31E75636700F5A617 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		F9FE8EA41E75636700F5A617 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		F9FE8EA51E75636700F5A617 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		F9FE8EA61E75636700F5A617 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		F9FE8EA71E75636700F5A617 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		F9FE8EA81E75636700F5A617 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		F9FE8EA91E75636700F5A617 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		F9FE8EAA1E75636700F5A617 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		F9FE8EAB1E75636700F5A617 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		F9FE8EAC1E75636700F5A617 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		F9FE8EAD1E75636700F5A617 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +141,11 @@
 		F9C15E011E3A058C0050DCBA = {
 			isa = PBXGroup;
 			children = (
+				F9FE8E941E755E2700F5A617 /* icon.png */,
+				F9FE8E921E75583100F5A617 /* list-icon!.png */,
+				F9FE8E861E75408500F5A617 /* twitter_off.png */,
+				F9FE8E871E75408500F5A617 /* twitter_on.png */,
+				F9FE8E961E75636700F5A617 /* AppIcon.appiconset */,
 				F9C15E0C1E3A058C0050DCBA /* Reminder2 */,
 				F9C15E211E3A058C0050DCBA /* Reminder2Tests */,
 				F9C15E2C1E3A058C0050DCBA /* Reminder2UITests */,
@@ -104,6 +169,9 @@
 				F9C15E0D1E3A058C0050DCBA /* AppDelegate.swift */,
 				F9C15E0F1E3A058C0050DCBA /* ViewController.swift */,
 				F9C15E111E3A058C0050DCBA /* Main.storyboard */,
+				F9FE8E8F1E75571400F5A617 /* pencil-icon!.png */,
+				F9FE8E801E753E5000F5A617 /* Twitter_Logo_White_On_Blue.png */,
+				F9FE8E7E1E753B5B00F5A617 /* リマインダー背景.jpg */,
 				F9C15E141E3A058C0050DCBA /* Assets.xcassets */,
 				F9C15E161E3A058C0050DCBA /* LaunchScreen.storyboard */,
 				F9C15E191E3A058C0050DCBA /* Info.plist */,
@@ -129,6 +197,36 @@
 				F9C15E2F1E3A058C0050DCBA /* Info.plist */,
 			);
 			path = Reminder2UITests;
+			sourceTree = "<group>";
+		};
+		F9FE8E961E75636700F5A617 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE8E971E75636700F5A617 /* Contents.json */,
+				F9FE8E981E75636700F5A617 /* Icon-App-20x20@1x.png */,
+				F9FE8E991E75636700F5A617 /* Icon-App-20x20@2x.png */,
+				F9FE8E9A1E75636700F5A617 /* Icon-App-20x20@3x.png */,
+				F9FE8E9B1E75636700F5A617 /* Icon-App-29x29@1x.png */,
+				F9FE8E9C1E75636700F5A617 /* Icon-App-29x29@2x.png */,
+				F9FE8E9D1E75636700F5A617 /* Icon-App-29x29@3x.png */,
+				F9FE8E9E1E75636700F5A617 /* Icon-App-40x40@1x.png */,
+				F9FE8E9F1E75636700F5A617 /* Icon-App-40x40@2x.png */,
+				F9FE8EA01E75636700F5A617 /* Icon-App-40x40@3x.png */,
+				F9FE8EA11E75636700F5A617 /* Icon-App-57x57@1x.png */,
+				F9FE8EA21E75636700F5A617 /* Icon-App-57x57@2x.png */,
+				F9FE8EA31E75636700F5A617 /* Icon-App-60x60@1x.png */,
+				F9FE8EA41E75636700F5A617 /* Icon-App-60x60@2x.png */,
+				F9FE8EA51E75636700F5A617 /* Icon-App-60x60@3x.png */,
+				F9FE8EA61E75636700F5A617 /* Icon-App-72x72@1x.png */,
+				F9FE8EA71E75636700F5A617 /* Icon-App-72x72@2x.png */,
+				F9FE8EA81E75636700F5A617 /* Icon-App-76x76@1x.png */,
+				F9FE8EA91E75636700F5A617 /* Icon-App-76x76@2x.png */,
+				F9FE8EAA1E75636700F5A617 /* Icon-App-76x76@3x.png */,
+				F9FE8EAB1E75636700F5A617 /* Icon-App-83.5x83.5@2x.png */,
+				F9FE8EAC1E75636700F5A617 /* Icon-Small-50x50@1x.png */,
+				F9FE8EAD1E75636700F5A617 /* Icon-Small-50x50@2x.png */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +333,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FE8E811E753E5000F5A617 /* Twitter_Logo_White_On_Blue.png in Resources */,
+				F9FE8E911E75571400F5A617 /* pencil-icon!.png in Resources */,
+				F9FE8EC21E75636700F5A617 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				F9FE8E931E75583100F5A617 /* list-icon!.png in Resources */,
+				F9FE8E891E75408500F5A617 /* twitter_on.png in Resources */,
+				F9FE8EB31E75636700F5A617 /* Icon-App-29x29@2x.png in Resources */,
+				F9FE8EB01E75636700F5A617 /* Icon-App-20x20@2x.png in Resources */,
+				F9FE8EB21E75636700F5A617 /* Icon-App-29x29@1x.png in Resources */,
 				F9C15E181E3A058C0050DCBA /* LaunchScreen.storyboard in Resources */,
+				F9FE8EAF1E75636700F5A617 /* Icon-App-20x20@1x.png in Resources */,
+				F9FE8EC01E75636700F5A617 /* Icon-App-76x76@2x.png in Resources */,
 				F9C15E151E3A058C0050DCBA /* Assets.xcassets in Resources */,
+				F9FE8E951E755E2700F5A617 /* icon.png in Resources */,
+				F9FE8EBC1E75636700F5A617 /* Icon-App-60x60@3x.png in Resources */,
+				F9FE8EB41E75636700F5A617 /* Icon-App-29x29@3x.png in Resources */,
+				F9FE8EB91E75636700F5A617 /* Icon-App-57x57@2x.png in Resources */,
+				F9FE8EB11E75636700F5A617 /* Icon-App-20x20@3x.png in Resources */,
+				F9FE8EC31E75636700F5A617 /* Icon-Small-50x50@1x.png in Resources */,
+				F9FE8EBA1E75636700F5A617 /* Icon-App-60x60@1x.png in Resources */,
+				F9FE8EC11E75636700F5A617 /* Icon-App-76x76@3x.png in Resources */,
+				F9FE8E881E75408500F5A617 /* twitter_off.png in Resources */,
+				F9FE8E7F1E753B5B00F5A617 /* リマインダー背景.jpg in Resources */,
+				F9FE8EB71E75636700F5A617 /* Icon-App-40x40@3x.png in Resources */,
+				F9FE8EC41E75636700F5A617 /* Icon-Small-50x50@2x.png in Resources */,
+				F9FE8EBE1E75636700F5A617 /* Icon-App-72x72@2x.png in Resources */,
+				F9FE8EBB1E75636700F5A617 /* Icon-App-60x60@2x.png in Resources */,
+				F9FE8EB61E75636700F5A617 /* Icon-App-40x40@2x.png in Resources */,
+				F9FE8EB51E75636700F5A617 /* Icon-App-40x40@1x.png in Resources */,
+				F9FE8EBF1E75636700F5A617 /* Icon-App-76x76@1x.png in Resources */,
+				F9FE8EAE1E75636700F5A617 /* Contents.json in Resources */,
 				F9C15E131E3A058C0050DCBA /* Main.storyboard in Resources */,
+				F9FE8EB81E75636700F5A617 /* Icon-App-57x57@1x.png in Resources */,
+				F9FE8EBD1E75636700F5A617 /* Icon-App-72x72@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reminder2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Reminder2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misako.Reminder2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 			};
@@ -421,7 +549,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reminder2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Reminder2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misako.Reminder2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 			};

@@ -14,12 +14,12 @@ class CreateRemindViewController: UIViewController {
     var dateText: String = ""
     var  remindArray: [[String:String]] = []
     
-    var onTwitter: Bool = true
+    var onTwitter: Bool = false
     
     @IBOutlet var datePicker: UIDatePicker!
     let now = NSDate()
     
-
+    @IBOutlet var saveButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +39,14 @@ class CreateRemindViewController: UIViewController {
 
 
         // Do any additional setup after loading the view.
+        
+        
+        saveButton.layer.cornerRadius = 10    //角のR設定
+        saveButton.layer.masksToBounds = true
+        
+        
+        remindTextView.layer.borderColor = UIColor.whiteColor().CGColor
+        remindTextView.layer.borderWidth = 6.0
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -69,10 +77,13 @@ class CreateRemindViewController: UIViewController {
        
         if onTwitter == true {
             onTwitter = false
-            button.backgroundColor = UIColor.grayColor()
+            button.setBackgroundImage(UIImage(named: "twitter_on.png"), forState: .Normal)
+             
+
         }else if onTwitter == false{
             onTwitter = true
-            button.backgroundColor = UIColor.greenColor()
+            button.setBackgroundImage(UIImage(named: "twitter_off.png"), forState: .Normal)
+            
         }
         
     }
