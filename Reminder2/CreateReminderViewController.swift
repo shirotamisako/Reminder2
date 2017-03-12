@@ -32,6 +32,8 @@ class CreateRemindViewController: UIViewController {
         print(dateFormatter.stringFromDate(datePicker.date)) // -> 2014/06/25 02:13:18
         dateText = dateFormatter.stringFromDate(datePicker.date)
         
+        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("remindarray") as? [[String:String]] ?? []
+
         
         print(datePicker.date)
 
@@ -39,6 +41,10 @@ class CreateRemindViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("remindarray") as? [[String:String]] ?? []
+
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -117,6 +123,8 @@ class CreateRemindViewController: UIViewController {
         alertController.addAction(defaultAction)
         presentViewController(alertController, animated: true, completion: nil)
         
+        remindTextView.text = ""
+        remindText = ""
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

@@ -8,7 +8,7 @@
 
 import UIKit
 
- var remindText: String = ""
+var remindText: String = ""
 //var deleteindex: NSIndexPath = remindArray[indexPath.row]
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -18,25 +18,25 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var riminderNameArray = [String]()
     
     var  remindArray: [[String:String]] = []
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("remindarray") as? [[String:String]] ?? []
 
+        
         
         //テーブルビューのデータベースメソッドはViewControllerクラスに書くよ、トイう設定
         table.dataSource = self
         //テーブルビューのデリケートメソッドはViewControllerクラスに書くよという設定
         table.delegate = self
         
-       
+        
         
         // Do any additional setup after loading the view.
-       
-       
-   
+        
+        
+        
         super.viewDidLoad()
         
         // 右側に編集ボタン追加
@@ -44,15 +44,19 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         // ボタンの色を変更
         // self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
-            
+        
         
     }
     
-
+    override func viewWillAppear(animated: Bool) {
+        remindArray = NSUserDefaults.standardUserDefaults().arrayForKey("remindarray") as? [[String:String]] ?? []
+        table.reloadData()
+    }
     
-       @IBAction func back() {
+    
+    @IBAction func back() {
         dismissViewControllerAnimated(true, completion: nil)
-        }
+    }
     
     
     override func didReceiveMemoryWarning() {
@@ -77,12 +81,12 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             
             ud.setObject(remindArray, forKey: "remindarray")
             ud.synchronize()
-
+            
         }
     }
-   
     
-
+    
+    
     //セルの数を設定する
     func tableView(tableView: UITableView,numberOfRowsInSection section: Int) -> Int {
         //セルの数をriminderNameArrayの要素の数にする
